@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{00006d50-0000-0000-b090-00006b0b0000}]
+@="Credential Provider.NET"
+
+[HKEY_CLASSES_ROOT\CLSID\{00006d50-0000-0000-b090-00006b0b0000}]
+@="Credential Provider.NET"
+
+[HKEY_CLASSES_ROOT\CLSID\{00006d50-0000-0000-b090-00006b0b0000}\InprocServer32]
+@="CredProvider.NET.dll"
+"ThreadingModel"="Apartment"
+
