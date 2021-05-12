@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Indigox.Common.Logging;
+using System;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection;
 
 namespace CredProvider.NET
 {
@@ -22,6 +24,7 @@ namespace CredProvider.NET
                     Debug.WriteLine(ex);
                 }
             };
+            log4net.Config.XmlConfigurator.Configure(new FileInfo(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\log4net.config"));
         }
 
         public static TextWriter Out

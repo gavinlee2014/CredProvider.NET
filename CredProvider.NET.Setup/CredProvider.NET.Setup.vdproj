@@ -15,6 +15,18 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_096FFD2EB7C34FA1F91B977C722C1958"
+        "OwnerKey" = "8:_50F316CE44704908835F192967F8D9D5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_096FFD2EB7C34FA1F91B977C722C1958"
+        "OwnerKey" = "8:_C2BAFA48622F5FE2B9D2674423E8A4C8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_2B8C861831330F44BBC63E6AA3150C70"
         "OwnerKey" = "8:_50F316CE44704908835F192967F8D9D5"
         "MsmSig" = "8:_UNDEFINED"
@@ -29,6 +41,12 @@
         {
         "MsmKey" = "8:_34968B5AF92B891123438B9859C39C12"
         "OwnerKey" = "8:_50F316CE44704908835F192967F8D9D5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B0D3F47CC004EA08FA8E118719F9FB7"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -117,6 +135,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C2BAFA48622F5FE2B9D2674423E8A4C8"
+        "OwnerKey" = "8:_50F316CE44704908835F192967F8D9D5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D0570149995B476182474A94484B73F5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -142,7 +166,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E77887851FB514126D4CB960888CA5AB"
+        "OwnerKey" = "8:_C2BAFA48622F5FE2B9D2674423E8A4C8"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -226,6 +250,18 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_096FFD2EB7C34FA1F91B977C722C1958"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E77887851FB514126D4CB960888CA5AB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_AFC66B9FA86FB563766046F4270E7F20"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -260,6 +296,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -322,6 +366,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_096FFD2EB7C34FA1F91B977C722C1958"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_096FFD2EB7C34FA1F91B977C722C1958"
+                    {
+                    "Name" = "8:log4net.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:log4net.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_0E1864CFC3D242B28C185FBED070E0F6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2B8C861831330F44BBC63E6AA3150C70"
             {
             "AssemblyRegister" = "3:1"
@@ -413,6 +488,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B0D3F47CC004EA08FA8E118719F9FB7"
+            {
+            "SourcePath" = "8:..\\CredProvider.NET\\log4net.config"
+            "TargetName" = "8:log4net.config"
+            "Tag" = "8:"
+            "Folder" = "8:_0E1864CFC3D242B28C185FBED070E0F6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_49E5C4B66DDEB879A198D42E88DBAD58"
@@ -756,6 +851,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C2BAFA48622F5FE2B9D2674423E8A4C8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Indigox.Common.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f8b790f9c7de8b3d, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C2BAFA48622F5FE2B9D2674423E8A4C8"
+                    {
+                    "Name" = "8:Indigox.Common.Logging.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Indigox.Common.Logging.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_0E1864CFC3D242B28C185FBED070E0F6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0570149995B476182474A94484B73F5"
             {
             "SourcePath" = "8:..\\CredProvider.NET\\config.ini"
@@ -906,7 +1032,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:CredProvider.NET"
         "ProductCode" = "8:{B1A443F1-EE96-41F0-A758-4B8CF0070B84}"
-        "PackageCode" = "8:{A52C0E09-60F9-4021-9EFC-B7D757A37DD7}"
+        "PackageCode" = "8:{720DB297-6191-484D-A0EE-E95B13D18E08}"
         "UpgradeCode" = "8:{B5054969-BDB0-4208-B95D-1629C418FD24}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

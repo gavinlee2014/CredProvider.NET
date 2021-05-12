@@ -1,5 +1,6 @@
 ﻿using CredProvider.NET.Interop2;
 using CredProvider.NET.Socket;
+using Indigox.Common.Logging;
 using SuperSocket.ClientEngine;
 using System;
 using System.Configuration;
@@ -57,6 +58,15 @@ namespace CredProvider.NET
         {
             Logger.Write();
             var flags = (CredentialFlag)dwFlags;
+            try
+            {
+                Log.Debug("Initialize");
+            }
+            catch (Exception e)
+            {
+                string stack = e.ToString();
+                Logger.Write($"Log.Debug err {stack}");
+            }
 
             Logger.Write($"cpus: {cpus}; dwFlags: {flags}");
 
