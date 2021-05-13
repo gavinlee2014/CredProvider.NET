@@ -1,14 +1,8 @@
 ﻿using CredProvider.NET.Interop2;
 using CredProvider.NET.Socket;
-using SuperSocket.ClientEngine;
 using System;
-using System.Configuration;
 using System.Drawing;
-using System.IO;
-using System.Net;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace CredProvider.NET
